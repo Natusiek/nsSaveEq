@@ -45,7 +45,7 @@ public class SavingEquipment implements Listener {
             return;
         }
         final EquipmentData data = this.equipmentDataManager.createEquipmentData(player.getUniqueId(),
-                player.hasPermission("casual-saveeq.vip"));
+                player.hasPermission("natusiek.vip"));
 
         final PlayerInventory inventory = player.getInventory();
     /*if (EquipmentData.hasIllegalArmor(inventory.getArmorContents())
