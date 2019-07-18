@@ -1,0 +1,9 @@
+name: nsSaveEq
+version: ${project.version}
+main: pl.natusiek.mc.SavePlugin
+authors: [Natusiek]
+description: Plugin na ZapiszEq
+
+commands:
+  saveequipment:
+    aliases: [saveeq, zapiszeq]
